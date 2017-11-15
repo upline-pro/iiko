@@ -1,0 +1,24 @@
+{
+	"name": "upline-pro/iiko",
+	"type": "library",
+	"description": "PHP Class for accessing iiko API.",
+	"keywords": ["iiko", "api"],
+	"homepage": "https://github.com/upline-pro/iiko-API",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Pavel Mezhonnyy",
+			"email": "mail@upline.pro",
+			"homepage": "http://upline.pro"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"IIKO\\IIKO\\": "src"
+		}
+	}
+}
